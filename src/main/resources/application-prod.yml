@@ -1,0 +1,5 @@
+# 数据库配置
+db.url=jdbc:mysql://localhost:3306/sky?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf8
+db.username=root
+db.password=20040729aA
+db.driver=com.mysql.cj.jdbc.Driver
