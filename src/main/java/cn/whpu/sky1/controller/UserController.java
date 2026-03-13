@@ -18,8 +18,10 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/success")
-    public Result<String> success(@RequestBody RegisterDTO registerDTO) {
-        return Result.success("你好");
+    @PostMapping("/success")
+    public Result<RegisterDTO> success(@RequestBody RegisterDTO registerDTO) {
+        userService.register(registerDTO);
+        return Result.success(registerDTO);
     }
+
 }
