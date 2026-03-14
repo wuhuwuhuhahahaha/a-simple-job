@@ -30,6 +30,14 @@ lombok这个插件很头疼，@Data可以写了很多的getter和seter
 
 <img width="463" height="288" alt="image" src="https://github.com/user-attachments/assets/d6cb7598-233d-44ff-a310-20cb5dd0b507" />
 
+3月13日记
+完成了一个注册的功能
+
+
+
+
+
+
 
 
 
